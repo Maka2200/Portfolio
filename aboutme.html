@@ -105,25 +105,11 @@
 	  <center>
 	  <p><font face="Tw Cen MT" size="6" color="white">Some of my art...</font></p><br>
 	  <p><font face="Tw Cen MT" size="3" color="white">(Follow me @ze.artist on IG)</font></p>
-	  <img class="mySlides" src="img_fjords.jpg">
-	  <img class="mySlides" src="img_lights.jpg">
-	  <img class="mySlides" src="img_mountains.jpg">
-	  <img class="mySlides" src="img_forest.jpg">
-	  <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-          <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
-	  var slideIndex = 0;
-	  carousel();
-	  function carousel() {
-   		var i;
-    		var x = document.getElementsByClassName("mySlides");
-    		for (i = 0; i < x.length; i++) {
-      		 x[i].style.display = "none"; 
-    		}
-    		slideIndex++;
-    		if (slideIndex > x.length) {slideIndex = 1} 
-    		x[slideIndex-1].style.display = "block"; 
-    		setTimeout(carousel, 2000); // Change image every 2 seconds
-	  }
+	  <div class="mySlides">
+  	  	<div class="w3-container w3-red">
+  		<h1><b>Did You Know?</b></h1>
+  		<h1><i>We plan to sell trips to the moon in the 2020s</i></h1>
+	  </div>
 	  </center>
 	  </td>
    	</tr>
